@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Making Connections</title>
+</head>
+<body>
+    <div class="topbanner">
+        <div>
+            <span class="nav-title">Profile</span>
+        </div>
+        <div class="nav-links">
+            <div><a href="#" class="active">Home</a></div>
+            <div><a href="#" class="boldlink">My Profile</a></div>
+            <div><a href="#" class="active">Find Connections</a></div>
+            <div><button class="btn">Sign Out</button></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-1">
+            <div class="rowone-1">
+                <div class="topbarUC"></div>
+                <div class="containerUC">
+                    <div class="usericon">
+                        <img src="user-circle.png" alt="Generic user circle">
+                    </div>
+                    <h2>Jane Doe</h2>
+                    <div class="map1">
+                        <img src="map-marker.png" alt="Map Marker">
+                        <h5>Seattle</h5>
+                    </div>
+                    <div class="description">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="gear">
+                        <img src="gear.png" alt="Gear Icon">
+                        <div class="edit">
+                            <p id="editName" onclick="switchName()">edit profile<p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <div class="rowtwo-1">
+            <div class="blackbanners"></div>
+            <div class="containerED">
+                <h6>Education</h6>
+                <div class="EDtext1">
+                    <h4>Coding Dojo - Full Stack Bootcamp</h4>
+                </div>
+                <div class="dates">
+                    <p>Dec 2019 - Mar 2020</p>
+                </div>
+                <div class="description">
+                    <p>Triple black belt in Python, MERN and C#...</p>
+                </div>
+                <div class="gear">
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="rowone-2">
+                <div class="blackbanners"></div>
+                <div class="containerleft">
+                    <div class="numofreqs">
+                        <h3>2</h3>
+                    </div>
+                    <h6>Connection Requests</h6>
+                </div>
+                    <div class="mapTodd">
+                        <img src="user-circle.png" alt="Generic user circle">
+                        <h5>Todd E</h5>
+                        <img src="accept-circle.png" onclick="hideTodd()">
+                        <img src="close-circle.png" onclick="hideTodd()">
+                    </div>
+                    <div class="mapPhil">
+                        <img src="user-circle.png" alt="Generic user circle">
+                        <h5>Phil K</h5>
+                        <img src="accept-circle.png" onclick="hidePhil()">
+                        <img src="close-circle.png" onclick="hidePhil()">
+                    </div>
+            </div>  
+            <div class="rowtwo-2">
+                <div class="row1fourthbox">
+                    <div class="blackbanners"></div>
+                    <div class="containerleft">
+                        <div class="numofconnects">
+                            <h3>500+</h3>
+                        </div>
+                        <h6>Your Connections</h6>
+                    </div>
+                        <div class="map">
+                            <img src="user-circle.png" alt="Generic user circle">
+                            <h5>Adrien D</h5>
+                        </div>
+                        <div class="map">
+                            <img src="user-circle.png" alt="Generic user circle">
+                            <h5>Anne J</h5>
+                        </div>
+                        <div class="map">
+                            <img src="user-circle.png" alt="Generic user circle">
+                            <h5>Alayne T</h5>
+                        </div>
+                        <div class="map">
+                            <img src="user-circle.png" alt="Generic user circle">
+                            <h5>Arry Y</h5>
+                        </div>
+                </div>
+                <div class="row2fourthbox">       
+                    <div class="gear">
+                        <div class="edit">
+                            <p>View More<p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
